@@ -1,0 +1,82 @@
+body {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(193,148,233,1) 100%);
+background-attachment:scroll;
+font-family: poppins;
+font-size: 15px;
+display:grid;
+place-items:center;
+}
+.form{
+    background-color: whitesmoke;
+    padding: 5px;
+   margin:10px;
+   width:400px;
+   
+   
+   
+   
+
+    
+}
+.form h1{
+    color: purple;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.container label{
+    
+margin: 5px;
+    display: block;
+
+
+
+    
+}
+.container input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+outline: none;
+    border-color:white;
+    
+}
+button{
+    font-family: poppins;
+    font-size: 17px;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    margin-top:  10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+.container p {
+    color:red;
+ visibility: hidden;
+ padding: 5px;
+ margin: 5px;
+}
+
+    
+.container.fail input{
+    border-color: red;
+    
+}
+
+.container.success input{
+    border-color:darkblue;
+}
+
+.container.fail p{
+    color: red;
+    visibility: visible;
+
+}
+
